@@ -7,14 +7,14 @@ def main():
     for x,y in enumerate(str(lista)):
         if val!=0:
             for i in range(cont):
-                print(lista,"-","#")
+                print(str(lista) + "-#")
                 lista+=1
                 for i in range(1):
-                    print(lista,"-","%")
+                    print(str(lista) + "-%")
                     lista+=1
 
         if val%2!=0:
-            print(lista,"-","#")
+            print(str(lista) + "-#")
             lista+=1
 
 
