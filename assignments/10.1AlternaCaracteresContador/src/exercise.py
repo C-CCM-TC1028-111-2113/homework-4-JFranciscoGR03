@@ -4,7 +4,7 @@ def main():
     cont=val//2
     lista=1
 
-    for x,y in enumerate(str(lista)):
+    for x,y in enumerate(str(lista))
         if val!=0:
             for i in range(cont):
                 print(str(lista) + "-#")
