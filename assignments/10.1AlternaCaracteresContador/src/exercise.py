@@ -1,6 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
-    val=int(input())
+    val=int(input("Ingresa un numero"))
     cont=val//2
     lista=1
 
